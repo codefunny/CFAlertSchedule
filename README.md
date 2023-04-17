@@ -19,3 +19,13 @@ testflight.block = ^(id<ICFAlertHolder> holder) {
   }
 }
 ```
+
+Installation
+==============
+
+### CocoaPods
+
+1. Update cocoapods to the latest version.
+2. Add `pod 'CFAlertSchedule'` to your Podfile.
+3. Run `pod install` or `pod update`.
+4. Import \<CFAlertSchedule/CFAlertSchedule.h\>.
