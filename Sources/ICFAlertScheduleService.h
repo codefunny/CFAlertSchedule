@@ -8,7 +8,7 @@
 
 #import <CFAlertSchedule/CFAlertScheduleTypes.h>
 
-@protocol ICFAlertScheduleService <IOAKService>
+@protocol ICFAlertScheduleService <NSObject>
 
 @property (nonatomic, assign, readonly) BOOL  isBusying;
 
